@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Edraw</string>
+    <string name="draw">画图</string>
+    <string name="view">查看</string>
+    <string name="help">帮助</string>
+    <string name="save">保存</string>
+    <string name="clear">清除</string>
+    <string name="undo">撤销</string>
+    <string name="redo">重做</string>
+    <string name="fill">填充</string>
+    <string name="stroke">加粗</string>
+    <string name="delete_file">确定要删除该文件吗？</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="graffiti">涂鸦</string>
+    <string name="delete">删除</string>
+    <string name="no_image">没有任何作品，赶快去创建您的大作吧！</string>
+    <string name="version">版本：</string>
+    <string name="last_update">最后更新时间：</string>
+    <string name="first_install">首次安装时间：</string>
+    <string name="help_inform">这是帮助信息。\n\n\n\n\n仅作测试用！\n\n\n\n\n
+                        想了解更多信息，请访问www.baidu.com。</string>
+
+</resources>

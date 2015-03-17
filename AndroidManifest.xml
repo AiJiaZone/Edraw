@@ -1,0 +1,67 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.edraw"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ed"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".EdrawMainActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DrawActivity"
+            android:launchMode="singleTop"
+            style="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.android.edraw.DRAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GalleryViewActivity"
+            android:launchMode="singleTop"
+            style="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.android.edraw.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".DetailViewActivity"
+            android:launchMode="singleTop">
+            <intent-filter >
+                 <action android:name="com.android.edraw.SHOW_DETAIL" />
+
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HelpActivity" 
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.android.edraw.HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bound_white"
+    android:layout_height="match_parent" >
+
+    <com.android.edraw.view.DrawerSurfaceView
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="60dp"/>
+
+    <include
+        android:id="@+id/painter_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/painter_settings" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        layout="@layout/action_button" />
+
+</FrameLayout>

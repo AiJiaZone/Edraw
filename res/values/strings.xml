@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Edraw</string>
+    <string name="draw">Draw</string>
+    <string name="view">View</string>
+    <string name="help">Help</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="fill">Filled</string>
+    <string name="stroke">Stroke</string>
+    <string name="delete_file">Do you want to delete the picture?</string>
+    <string name="confirm">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="graffiti">Graffiti</string>
+    <string name="delete">Delete</string>
+    <string name="no_image">No image has been created, go and create one!</string>
+    
+    <string name="version">Version:</string>
+    <string name="last_update">Last update:</string>
+    <string name="first_install">First install</string>
+    <string name="help_inform">This is a help inform.\n\n\n\nJust test here.\n\n\n\n\n
+        For More Information, Please Refer to www.baidu.com.</string>
+</resources>
